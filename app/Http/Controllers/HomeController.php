@@ -10,4 +10,14 @@ class HomeController extends Controller
     {
         return view ('homepage');
     }
+
+    public function about()
+    {
+        return view ('layouts.Tentangkami.index');
+    }
+    
+    // public function layanan()
+    // {
+    //     return view ('layouts.Layanan.index');
+    // }
 }
