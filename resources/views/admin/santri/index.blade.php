@@ -23,24 +23,7 @@
                     <p class="text-[10px] text-blue-300">ADMIN PANEL</p>
                 </div>
             </div>
-            <nav class="p-4 space-y-1">
-                <a href="{{ route('admin.dashboard') }}"
-                    class="flex items-center gap-2.5 px-3 py-2 text-blue-200 hover:bg-blue-900/30 hover:text-white rounded-lg text-xs transition-colors">
-                    <i class="fas fa-tachometer-alt w-4 text-center"></i> Dashboard
-                </a>
-                <a href="{{ route('admin.santri.index') }}"
-                    class="flex items-center gap-2.5 px-3 py-2 bg-blue-900/50 text-white rounded-lg text-xs font-bold">
-                    <i class="fas fa-user-graduate w-4 text-center text-red-500"></i> Data Santri
-                </a>
-                <a href="#"
-                    class="flex items-center gap-2.5 px-3 py-2 text-blue-200 hover:bg-blue-900/30 hover:text-white rounded-lg text-xs transition-colors">
-                    <i class="fas fa-chalkboard-teacher w-4 text-center text-blue-400"></i> Data Ustadz
-                </a>
-                <a href="#"
-                    class="flex items-center gap-2.5 px-3 py-2 text-blue-200 hover:bg-blue-900/30 hover:text-white rounded-lg text-xs transition-colors">
-                    <i class="fas fa-book w-4 text-center text-blue-400"></i> Mata Pelajaran
-                </a>
-            </nav>
+            @include('admin.sidebar')
         </div>
         <div class="p-4 border-t border-blue-900">
             <form action="{{ route('logout') }}" method="POST">

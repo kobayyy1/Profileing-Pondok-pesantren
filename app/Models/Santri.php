@@ -20,4 +20,14 @@ class Santri extends Model
     {
         return $this->belongsTo(User::class, 'ortu_id');
     }
+    public function mutabaahReports()
+    {
+        return $this->hasMany(MutabaahReport::class, 'santri_id');
+    }
+
+    // Relasi: Satu santri memiliki banyak riwayat laporan tahfiz
+    public function tahfizReports()
+    {
+        return $this->hasMany(TahfizReport::class, 'santri_id');
+    }
 }
