@@ -13,61 +13,55 @@
         <section id="galeri" class="py-16 px-4 bg-gray-50">
             <div class="container mx-auto">
 
-                <!-- Header Section (opsional) -->
-                {{-- <div class="text-center mb-10">
-            <h3 class="text-4xl font-bold text-gray-800 mb-3">Galeri Pesantren</h3>
-            <p class="text-gray-500 text-lg">Momen dan aktivitas di Pondok Pesantren Al-Hikmah</p>
-        </div> --}}
-
                 <!-- Grid 8 Gambar -->
                 <div class="flex flex-col gap-6 max-w-5xl mx-auto">
 
                     <!-- Gambar 1 -->
                     <div class="w-full overflow-hidden rounded-2xl shadow-md">
-                        <img src="{{ asset('build/assets/banner1/hero1.png') }}" alt="Galeri 1"
+                        <img src="{{ asset('images/banner1/hero1.png') }}" alt="Galeri 1"
                             class="w-full h-auto block">
                     </div>
 
 
                     <!-- Gambar 2 -->
                     <div class="w-full overflow-hidden rounded-2xl shadow-md">
-                        <img src="{{ asset('build/assets/banner1/hero2.png') }}" alt="Galeri 2"
+                        <img src="{{ asset('images/banner1/hero2.png') }}" alt="Galeri 2"
                             class="w-full h-[480px] object-cover object-center block">
                     </div>
 
                     <!-- Gambar 3 -->
                     <div class="w-full overflow-hidden rounded-2xl shadow-md">
-                        <img src="{{ asset('build/assets/banner1/hero3.png') }}" alt="Galeri 3"
+                        <img src="{{ asset('images/banner1/hero3.png') }}" alt="Galeri 3"
                             class="w-full h-auto block">
                     </div>
 
                     <!-- Gambar 4 -->
                     <div class="w-full overflow-hidden rounded-2xl shadow-md">
-                        <img src="{{ asset('build/assets/banner1/santri30.png') }}" alt="Galeri 4"
+                        <img src="{{ asset('images/banner1/santri30.png') }}" alt="Galeri 4"
                             class="w-full h-auto block">
                     </div>
 
                     <!-- Gambar 5 -->
                     <div class="w-full overflow-hidden rounded-2xl shadow-md">
-                        <img src="{{ asset('build/assets/banner1/hero5.png') }}" alt="Galeri 5"
+                        <img src="{{ asset('images/banner1/hero5.png') }}" alt="Galeri 5"
                             class="w-full h-auto block">
                     </div>
 
                     <!-- Gambar 6 -->
                     <div class="w-full overflow-hidden rounded-2xl shadow-md">
-                        <img src="{{ asset('build/assets/banner1/hero6.png') }}" alt="Galeri 6"
+                        <img src="{{ asset('images/banner1/hero6.png') }}" alt="Galeri 6"
                             class="w-full h-auto block">
                     </div>
 
                     <!-- Gambar 7 -->
                     <div class="w-full overflow-hidden rounded-2xl shadow-md">
-                        <img src="{{ asset('build/assets/banner1/hero7.png') }}" alt="Galeri 7"
+                        <img src="{{ asset('images/banner1/hero7.png') }}" alt="Galeri 7"
                             class="w-full h-auto block">
                     </div>
 
                     <!-- Gambar 8 -->
                     <div class="w-full overflow-hidden rounded-2xl shadow-md">
-                        <img src="{{ asset('build/assets/banner1/hero8.png') }}" alt="Galeri 8"
+                        <img src="{{ asset('images/banner1/hero8.png') }}" alt="Galeri 8"
                             class="w-full h-auto block">
                     </div>
                 </div>
